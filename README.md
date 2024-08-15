@@ -24,7 +24,7 @@ kubectl exec -it $(kubectl get pods | grep htop | head -n 1 | cut -d ' ' -f 1) -
 
 # Details
 
-This project comes is configured with defaults which work in most cases. To change the default settings, execute `./config.sh` or just edit the `.env` file. One of the settings in the project is the target orchestrator `TO`. This setting configures the container to run locally using docker, or on a kubernetes cluster, using kubectl. Switching to a different orchestrator is as simple as configuring the `TO` setting.
+This project is configured with defaults which work in most cases. To change the default settings, execute `./config.sh` or just edit the `.env` file. One of the settings in the project is the target orchestrator `TO`. This setting configures the container to run locally using docker, or on a kubernetes cluster, using kubectl. Switching to a different orchestrator is as simple as configuring the `TO` setting.
 
 
 The project contains the following scripts:

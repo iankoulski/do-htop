@@ -13,7 +13,7 @@ docker run -it --rm iankoulski/do-htop htop
 Run on Kubernetes using kubectl:
 
 ```bash
-kubectl apply -f https://github.com/iankoulski/do-htop/to/kubernetes/manifest/do-htop-daemonset.yaml
+kubectl apply -f https://bit.ly/do-htop-daemonset
 ```
 
 When running on Kubernetes, to view metrics, run:
@@ -41,3 +41,11 @@ The project contains the following scripts:
 # License
 
 Please see the [LICENSE](LICENSE) file for details.
+
+# References
+
+* [do-framework](https://bit.ly/do-framework)
+* [depend-on-docker](https://bit.ly/do-docker-project) project
+* [Alpine Linux](https://alpinelinux.org)
+* [htop](https://htop.dev)
+
